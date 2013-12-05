@@ -47,9 +47,9 @@
 <div class="container">
 
     <div class="starter-template">
-        <h1>Welcome to Booze Hunter</h1>
-        <p class="lead">Booze Hunter will teach you about the different types of Whiskey and Bourbon
-            <br> <a href="about.php">Click here to learn more about your booze.</a></p>
+        <h1>Learn about your booze...</h1>
+        <p class="lead">Booze Hunter will focus primarily on Whiskies.
+            <br>There is so much to know about these drinks and a vast history behind them.</p>
     </div>
 
 </div><!-- /.container -->

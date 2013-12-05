@@ -3,7 +3,11 @@
 <head>
 
     <title>Booze Hunter Project</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Ok, this won't validate with HTML5 when this line is uncommented.  That being said, you can wrap
+    the meta tag and put some logic in to select which version of IE is being used.  When you do that, it
+    breaks Google Chrome Frame.  This is just so that the "Compatibility View" option is not shown in IE.
+    My personal preference was to have it validate for the grade, and screw IE.  Sound good? -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Booze Hunter">

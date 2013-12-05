@@ -1,6 +1,6 @@
 <?php
 
-require '../dbconnection.php';
+require '../../dbconnection.php';
 
 $q = intval($_GET['q']);
 $con = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_NAME);

@@ -27,7 +27,8 @@ echo '<br><table cellpadding="0" cellspacing="0" border="1" class="display" id="
 <tbody>';
 
 while($row = mysqli_fetch_array($result)) {
-    // This puts the type from the DB into the class value. 1= Straight Kentucky Bourbon, 2=Irish Whiskey, 3=Whisky, 4=Straight Bourbon Whiskey
+    // This puts the type from the DB into the class value. 1= Straight Kentucky Bourbon, 2=Irish Whiskey, 3=Whisky,
+    // 4=Straight Bourbon Whiskey
     echo "<tr class=". $row['5'];
     // Now decide the size of the bottle and assign small, med, or large to the tr id
 

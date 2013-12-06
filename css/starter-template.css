@@ -1,13 +1,21 @@
+/* ----------------------------------------------------------------------------
+    A CSS provided by Twitter Bootstrap
+---------------------------------------------------------------------------- */
+
 body {
     padding-top: 50px;
 
 }
 
-.main-page {
-    background-image:url('/A_Glass_of_Whiskey_on_the_Rocks.png');
-}
-
 .starter-template {
     padding: 40px 15px;
     text-align: center;
+}
+
+/* ----------------------------------------------------------------------------
+    Everything below this line is custom.
+---------------------------------------------------------------------------- */
+
+.main-page {
+    background-image:url('/A_Glass_of_Whiskey_on_the_Rocks.png');
 }

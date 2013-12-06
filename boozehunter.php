@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Booze Hunter">
     <meta name="author" content="Derek Thurston">
@@ -21,7 +21,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="main-page">
 
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -45,6 +45,8 @@
 </div>
   <body>
     <h1>Booze Hunter</h1>
+    <p>Use Booze Hunter to pick your next bottle!  Select your booze type, then select the size you're looking for.
+        Reset will clear the page.</p>
     <!-- Standard button -->
     <form>
     <button type="button" class="btn btn-default" onClick="history.go(0)">Reset</button>
@@ -56,17 +58,15 @@
     <script src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.form.js"></script>
     <script src="/js/booze.js"></script>
-    <!--<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.js"></script> -->
-
 
 
     <form>
         <select class="form-control" id="boozetype" onchange="showBooze(this.value)">
             <option value="">Choose Your Booze</option>
             <option value="1">Straight Kentucky Bourbon</option>
-            <option value="2">Whiskey</option>
-            <option value="3">Wine</option>
-            <option value="4">Beer</option>
+            <option value="2">Irish Whiskey</option>
+            <option value="3">Wisky</option>
+            <option value="4">Straight Bourbon Whiskey</option>
         </select>
     </form>
     <form>

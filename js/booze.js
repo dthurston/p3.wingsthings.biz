@@ -1,3 +1,7 @@
+/*-----------------------------------------------------------------------------
+A JavaScript function to remove the unselected Sizes from the results table
+---------------------------------------------------------------------------- */
+
 function showSize(str) {
     if (str=="")
     {document.getElementById("txtHint").innerHTML="";
@@ -13,15 +17,27 @@ function showSize(str) {
     }
 
     if (str=="2") {
-        $( "tr" ).remove( "#small" );
-        $( "tr" ).remove( "#large" );
+        $( "tr[id|='small']" ).fadeOut( "slow", function() {
+            //Animation complete
+        });
+        $( "tr[id|='large']" ).fadeOut( "slow", function() {
+            //Animation complete
+        });
     }
 
     if (str=="3") {
-        $( "tr" ).remove( "#small" );
-        $( "tr" ).remove( "#medium" );
+        $( "tr[id|='small']" ).fadeOut( "slow", function() {
+            //Animation complete
+        });
+        $( "tr[id|='medium']" ).fadeOut( "slow", function() {
+            //Animation complete
+        });
     }
 }
+
+/*-----------------------------------------------------------------------------
+ An Ajax call to bh.php to update the txtHint results table
+ ---------------------------------------------------------------------------- */
 
 function showBooze(str)
 {

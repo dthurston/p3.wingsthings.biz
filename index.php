@@ -55,11 +55,16 @@
     <div class="starter-template">
         <h1>Welcome to Booze Hunter</h1>
         <p class="lead">Booze Hunter will teach you about the different types of Whiskey and Bourbon
-            <br> <a href="about.php">Click here to learn more about your booze.</a></p>
+            <br> <a href="about.php">Click here to learn more about your booze.</a>
+        </p>
+        <footer>
+            <p>Created by: Derek Thurston<br>
+            CSCI E-15: Dynamic Web Applications, Project 3<br>
+            <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fp3.wingsthings.biz%2F">HTML 5 validation</a></p>
+        </footer>
     </div>
 
 </div><!-- /.container -->
-
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

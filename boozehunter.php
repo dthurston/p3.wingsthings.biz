@@ -65,8 +65,8 @@
             <option value="">Choose Your Booze</option>
             <option value="1">Straight Kentucky Bourbon</option>
             <option value="2">Irish Whiskey</option>
-            <option value="3">Wisky</option>
-            <option value="4">Straight Bourbon Whiskey</option>
+            <option value="3">Canadian Whisky</option>
+            <option value="4">Scotch Whisky</option>
         </select>
     </form>
     <form>

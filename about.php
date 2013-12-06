@@ -85,7 +85,7 @@
         </div>
         <div id="collapseTwo" class="panel-collapse collapse">
             <div class="panel-body">
-                AThough the juice off the still (what's known as white dog or white whiskey) needs to be up to
+                Although the juice off the still (what's known as white dog or white whiskey) needs to be up to
                 snuff to begin with, much of whiskey's quality also depends on the barrel aging, blending, and
                 bottling. Essentially, these steps are the stage around which whiskey geeks thrive. Recently,
                 one of the industry's big players, Maker's Mark, began playing around with switching its barrel
